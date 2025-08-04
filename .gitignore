@@ -1,2 +1,2 @@
 node_modules
-postgres-db\postgres-secret.yaml
+postgres-db/postgres-secret.yaml
