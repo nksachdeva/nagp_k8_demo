@@ -3,9 +3,7 @@ kind: Deployment
 metadata:
   name: nodejs-app
 spec:
-  strategy:
-    type: Recreate
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: nodejs-app
